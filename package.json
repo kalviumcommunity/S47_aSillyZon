@@ -1,0 +1,11 @@
+{
+  "name": "s47_asillyzon",
+  "version": "1.0.0",
+  "description": "### Description the goal is to Create a platform that allows users to order customized merchandise related to silly and unconventional themes. Users can order T-shirts, mugs, and other items featuring their favourite silly rankings, quotes, or humorous content. The platform will serve as a marketplace for unique and personalized silly merchandise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
