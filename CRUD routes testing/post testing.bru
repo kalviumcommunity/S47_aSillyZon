@@ -1,0 +1,18 @@
+meta {
+  name: post testing
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/products
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "Whoopee Cushion",
+      "price": 5.99
+    }
+}
