@@ -4,7 +4,7 @@ const password = process.env.password
 
 const connectToDatabase = async () => {
   try {
-    await mongoose.connect(`mongodb+srv://somuyak:${password}@cluster0.i2b8prd.mongodb.net/aSillyZon?retryWrites=true&w=majority`);
+    await mongoose.connect(`mongodb+srv://somuyak:%40Somuya2004@cluster0.i2b8prd.mongodb.net/?retryWrites=true&w=majority`);
     console.log("Connected to the database");
     return true;
   } catch (error) {
