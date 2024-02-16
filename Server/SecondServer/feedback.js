@@ -8,17 +8,17 @@ const jwt = require('jsonwebtoken');
 
 require('dotenv').config()
 
-JWT_SECRET_KEY = "devrajpatil";
+JWT_SECRET_KEY = "Somuya";
 const app = express()
 app.use(cors())
 app.use(express.json())
+
 
 const schema = Joi.object({
   name: Joi.string().required(),
   email: Joi.string().required(),
   comments: Joi.string().required()
 })
-
 const uri = 'mongodb+srv://somuyak:%40Somuya2004@cluster0.i2b8prd.mongodb.net/aSillyZon?retryWrites=true&w=majority';
 mongoose.connect(uri)
 .then(()=>{
