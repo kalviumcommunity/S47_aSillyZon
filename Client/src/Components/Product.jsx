@@ -13,12 +13,12 @@ const Products = () => {
           {products.map((product) => (
             <div key={product._id} className="group relative">
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                {/* <img
-                  src={`https://example.com/product-images/${product._id}.jpg`}
+                <img
+                  src={product.category}
                   alt={product.name}
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"
-                /> */}
-                <h1 className=' flex justify-center text-xl'>We are Working on <br></br>the product Design</h1>
+                />
+                {/* <h1 className=' flex justify-center text-xl'>We are Working on <br></br>the product Design</h1> */}
               </div>
               <div className="mt-4 flex justify-between">
                 <div>
