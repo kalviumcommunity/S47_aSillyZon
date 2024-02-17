@@ -83,6 +83,7 @@ const Feedback = () => {
       </form>
 
       {
+        
         data
         .filter(item => !selectedUser || item.name === selectedUser)
         .map((item) => {
@@ -99,6 +100,7 @@ const Feedback = () => {
           )
         })
       }
+
     </div>
   )
 }
